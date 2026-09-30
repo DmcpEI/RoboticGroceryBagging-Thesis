@@ -1,0 +1,18 @@
+# Perception, evaluation and planning (Python 3.11+)
+numpy>=1.24
+scipy>=1.11
+pillow>=10
+matplotlib>=3.8
+pyarrow>=14            # reading the RPC annotations
+ultralytics>=8.3       # closed-set detector (YOLO11)
+ortools>=9.10          # CP-SAT bagging solver
+google-generativeai>=0.8   # off-the-shelf baseline (Gemini Robotics-ER)
+
+# Vision-language model: fine-tuning and inference (GPU)
+torch>=2.4
+transformers>=5.0
+peft>=0.19
+accelerate>=1.0
+
+# The robot side (robot/) additionally needs ROS 1 with the Baxter SDK and
+# OpenCV; see robot/README.md.

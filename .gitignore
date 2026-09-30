@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.cache/
+
+# Secrets
+.env
+
+# Data, runs and model weights: not distributed with the code
+data/*
+!data/robot_lab/
+data/robot_lab/*
+!data/robot_lab/robot_sku_attrs.json
+!data/robot_lab/robot_item_catalog_planner.json
+!data/robot_lab/robot_item_catalog_perception.json
+!data/robot_lab/depth_envelopes.json
+!data/rpc_sku_attrs.json
+!data/rpc_sku_load_attrs.json
+!data/rpc_category_names.json
+datasets*/
+runs/
+live_sessions/
+*.pt
+*.safetensors
+robot/output/
+robot/robot_success_tests/
+robot/robot_pc_package/weights/
+tools/figures/out/
+
+# Local notes and editor state
+CLAUDE.md
+.claude/
+.vscode/
+.DS_Store
+
+# LaTeX build output
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Dissertation, extended abstract and paper: kept out until after the defence
+reports/
