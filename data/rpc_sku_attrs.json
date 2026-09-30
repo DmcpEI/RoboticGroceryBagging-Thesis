@@ -1,0 +1,2002 @@
+{
+ "79": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "80": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "88": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "89": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "90": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "91": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "92": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "93": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "94": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "95": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "96": {
+  "meta": "alcohol",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "142": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "143": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "144": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "tub",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "145": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "146": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "147": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "148": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "149": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "150": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "151": {
+  "meta": "candy",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "108": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "109": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "110": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "111": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "112": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "113": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "114": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "115": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "116": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "117": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "118": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "119": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "120": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "121": {
+  "meta": "canned_food",
+  "group": "pantry",
+  "packaging": "can",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "122": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "123": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "124": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "125": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "126": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "127": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "128": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "129": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "130": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "131": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "132": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "133": {
+  "meta": "chocolate",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "54": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "55": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "56": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "57": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "58": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "59": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "60": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "61": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "62": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "63": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "64": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "65": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "66": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "67": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "68": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "69": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "70": {
+  "meta": "dessert",
+  "group": "snack",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "22": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "23": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "24": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "25": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "26": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "27": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "28": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "29": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "30": {
+  "meta": "dried_food",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "13": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "14": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "15": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "16": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "17": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "18": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "19": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "20": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "21": {
+  "meta": "dried_fruit",
+  "group": "snack",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "71": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "72": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "73": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "74": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "75": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "76": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "77": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "78": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "81": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "82": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "83": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "can",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "84": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "85": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "86": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "87": {
+  "meta": "drink",
+  "group": "drink",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "134": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "tub",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "135": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "tub",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "136": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "137": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "138": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "139": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "140": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "tub",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "141": {
+  "meta": "gum",
+  "group": "snack",
+  "packaging": "tub",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "31": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "32": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "33": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "34": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "35": {
+  "meta": "instant_drink",
+  "group": "snack",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "36": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "37": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "38": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "39": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "40": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "41": {
+  "meta": "instant_drink",
+  "group": "pantry",
+  "packaging": "wrap",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "42": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "43": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "44": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "45": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "46": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "47": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "48": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "49": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "cup",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "50": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "51": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "52": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "53": {
+  "meta": "instant_noodles",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "97": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "98": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "99": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "100": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "101": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "102": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "103": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "104": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "105": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "106": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "107": {
+  "meta": "milk",
+  "group": "dairy",
+  "packaging": "carton",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": true
+ },
+ "164": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "165": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "166": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "167": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "168": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "169": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "170": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "171": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "172": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "box",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "173": {
+  "meta": "personal_hygiene",
+  "group": "hygiene",
+  "packaging": "blister",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "1": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "2": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "3": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "4": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "5": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "6": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "7": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "8": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "9": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "10": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "11": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "12": {
+  "meta": "puffed_food",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "152": {
+  "meta": "seasoner",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "153": {
+  "meta": "seasoner",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "154": {
+  "meta": "seasoner",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "155": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "156": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "157": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "158": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "159": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "160": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bottle",
+  "weight_class": "medium",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "161": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "162": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "163": {
+  "meta": "seasoner",
+  "group": "pantry",
+  "packaging": "bottle",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": true,
+  "spill_risk": true,
+  "edible": true
+ },
+ "194": {
+  "meta": "stationery",
+  "group": "other",
+  "packaging": "blister",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "195": {
+  "meta": "stationery",
+  "group": "other",
+  "packaging": "tube",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "196": {
+  "meta": "stationery",
+  "group": "other",
+  "packaging": "pouch",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "197": {
+  "meta": "stationery",
+  "group": "hygiene",
+  "packaging": "blister",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "198": {
+  "meta": "stationery",
+  "group": "other",
+  "packaging": "tube",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": true,
+  "edible": false
+ },
+ "199": {
+  "meta": "stationery",
+  "group": "snack",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": true
+ },
+ "200": {
+  "meta": "stationery",
+  "group": "other",
+  "packaging": "tube",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "174": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "175": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "176": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "177": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "178": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "179": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "180": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "181": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "182": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "183": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "184": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "185": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "186": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "187": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "188": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "189": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "190": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "191": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "192": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ },
+ "193": {
+  "meta": "tissue",
+  "group": "household",
+  "packaging": "bag",
+  "weight_class": "light",
+  "cold_chain": false,
+  "fragile": false,
+  "spill_risk": false,
+  "edible": false
+ }
+}

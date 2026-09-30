@@ -1,0 +1,1255 @@
+{
+  "_meta": {
+    "source": "robot_lab_item_catalog",
+    "source_catalog": {
+      "source_entries": 43,
+      "item_instances": 57,
+      "fields": [
+        "name",
+        "group",
+        "packaging",
+        "rigidity",
+        "weight_class",
+        "fragile",
+        "cold_chain",
+        "edible",
+        "spill_risk",
+        "quantity"
+      ],
+      "n_items": 43,
+      "measured_weight_g": "grams measured on a scale per object; null until measured. weight_class derived from these via documented thresholds (apply_robot_catalog_weight.WEIGHT_CLASS_THRESHOLDS).",
+      "true_volume_cc": "true bounding-box volume in cc (YCB spec dims, or measured); null until filled. Adapter passes it straight to planner est_volume_cc when present.",
+      "true_values_note": "measured_weight_g + true_volume_cc are GROUND TRUTH for Jacopo simulator. Sources: YCB official spec where the object is a YCB item, else physical scale/caliper, else online average. Fill via data/robot_lab/true_values_worksheet.csv + tools/dev/apply_true_values.py."
+    },
+    "planner_contract": "PACKBOT extended CP input",
+    "note": "Catalog quantities are expanded into individual item IDs. arrival_order follows catalog order and is not a real robot packing sequence.",
+    "planner_item_fields": [
+      "display_name",
+      "est_weight_g",
+      "weight_source",
+      "est_volume_cc",
+      "volume_source",
+      "crush_score",
+      "category",
+      "temperature",
+      "spill_risk",
+      "spill_vulnerable"
+    ],
+    "item_instances": 67,
+    "source_entries": 53,
+    "include_source": false,
+    "include_upright_required": false
+  },
+  "items_data": {
+    "item_000": {
+      "display_name": "bag of bananas",
+      "est_weight_g": 477,
+      "weight_source": "4 x real banana (118g) + 5g bag, estimated",
+      "est_volume_cc": 772,
+      "volume_source": "4 x banana, estimated",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_001": {
+      "display_name": "bag of cherries",
+      "est_weight_g": 33,
+      "weight_source": "4 x real cherries (7g) + 5g bag, estimated",
+      "est_volume_cc": 60,
+      "volume_source": "4 x cherries, estimated",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_002": {
+      "display_name": "bag of green apples",
+      "est_weight_g": 733,
+      "weight_source": "4 x real green apple (182g) + 5g bag, estimated",
+      "est_volume_cc": 884,
+      "volume_source": "4 x green apple, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_003": {
+      "display_name": "bag of limes",
+      "est_weight_g": 285,
+      "weight_source": "4 x real lime (70g) + 5g bag, estimated",
+      "est_volume_cc": 624,
+      "volume_source": "4 x lime, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_004": {
+      "display_name": "bag of mangoes",
+      "est_weight_g": 1349,
+      "weight_source": "4 x real mango (336g) + 5g bag, estimated",
+      "est_volume_cc": 1400,
+      "volume_source": "4 x mango, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_005": {
+      "display_name": "bag of oranges",
+      "est_weight_g": 609,
+      "weight_source": "4 x real orange (151g) + 5g bag, estimated",
+      "est_volume_cc": 816,
+      "volume_source": "4 x orange, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_006": {
+      "display_name": "bag of pears",
+      "est_weight_g": 717,
+      "weight_source": "4 x real pear (178g) + 5g bag, estimated",
+      "est_volume_cc": 1376,
+      "volume_source": "4 x pear, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_007": {
+      "display_name": "bag of red apples",
+      "est_weight_g": 733,
+      "weight_source": "4 x real red apple (182g) + 5g bag, estimated",
+      "est_volume_cc": 884,
+      "volume_source": "4 x red apple, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_008": {
+      "display_name": "bag of strawberries",
+      "est_weight_g": 53,
+      "weight_source": "4 x real strawberry (12g) + 5g bag, estimated",
+      "est_volume_cc": 332,
+      "volume_source": "4 x strawberry, estimated",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_009": {
+      "display_name": "bag of yellow lemons",
+      "est_weight_g": 485,
+      "weight_source": "4 x real yellow lemon (120g) + 5g bag, estimated",
+      "est_volume_cc": 624,
+      "volume_source": "4 x yellow lemon, estimated",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_010": {
+      "display_name": "banana",
+      "est_weight_g": 66,
+      "weight_source": "ycb",
+      "est_volume_cc": 193,
+      "volume_source": "ycb",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_011": {
+      "display_name": "banana",
+      "est_weight_g": 66,
+      "weight_source": "ycb",
+      "est_volume_cc": 193,
+      "volume_source": "ycb",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_012": {
+      "display_name": "banana",
+      "est_weight_g": 66,
+      "weight_source": "ycb",
+      "est_volume_cc": 193,
+      "volume_source": "ycb",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_013": {
+      "display_name": "baseball",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_014": {
+      "display_name": "bleach bottle",
+      "est_weight_g": 1131,
+      "weight_source": "ycb",
+      "est_volume_cc": 1592,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Cleaning",
+      "temperature": "Ambient",
+      "spill_risk": true,
+      "spill_vulnerable": false
+    },
+    "item_015": {
+      "display_name": "bowl",
+      "est_weight_g": 147,
+      "weight_source": "ycb",
+      "est_volume_cc": 1052,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_016": {
+      "display_name": "cherries",
+      "est_weight_g": 12,
+      "weight_source": "online",
+      "est_volume_cc": 15,
+      "volume_source": "online",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_017": {
+      "display_name": "chocolate pudding box",
+      "est_weight_g": 187,
+      "weight_source": "ycb",
+      "est_volume_cc": 342,
+      "volume_source": "ycb",
+      "crush_score": 6,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_018": {
+      "display_name": "coffee can",
+      "est_weight_g": 414,
+      "weight_source": "ycb",
+      "est_volume_cc": 1136,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_019": {
+      "display_name": "coffee can",
+      "est_weight_g": 414,
+      "weight_source": "ycb",
+      "est_volume_cc": 1136,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_020": {
+      "display_name": "cola bottle",
+      "est_weight_g": 545,
+      "weight_source": "online",
+      "est_volume_cc": 550,
+      "volume_source": "online",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": true,
+      "spill_vulnerable": false
+    },
+    "item_021": {
+      "display_name": "cracker box",
+      "est_weight_g": 411,
+      "weight_source": "ycb",
+      "est_volume_cc": 1991,
+      "volume_source": "ycb",
+      "crush_score": 6,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_022": {
+      "display_name": "cracker box",
+      "est_weight_g": 411,
+      "weight_source": "ycb",
+      "est_volume_cc": 1991,
+      "volume_source": "ycb",
+      "crush_score": 6,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_023": {
+      "display_name": "cracker box",
+      "est_weight_g": 411,
+      "weight_source": "ycb",
+      "est_volume_cc": 1991,
+      "volume_source": "ycb",
+      "crush_score": 6,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_024": {
+      "display_name": "cup",
+      "est_weight_g": 118,
+      "weight_source": "ycb",
+      "est_volume_cc": 450,
+      "volume_source": "ycb_est",
+      "crush_score": 8,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_025": {
+      "display_name": "dog chew toy",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 5,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_026": {
+      "display_name": "egg carton",
+      "est_weight_g": 385,
+      "weight_source": "online",
+      "est_volume_cc": 1300,
+      "volume_source": "online",
+      "crush_score": 9,
+      "category": "Dairy",
+      "temperature": "Refrigerated",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_027": {
+      "display_name": "electric screwdriver",
+      "est_weight_g": 800,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 1200,
+      "volume_source": "packaging_proxy",
+      "crush_score": 2,
+      "category": "Hardware",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_028": {
+      "display_name": "energy drink can",
+      "est_weight_g": 270,
+      "weight_source": "online",
+      "est_volume_cc": 290,
+      "volume_source": "online",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_029": {
+      "display_name": "fork",
+      "est_weight_g": 34,
+      "weight_source": "ycb",
+      "est_volume_cc": 55,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_030": {
+      "display_name": "gelatin dessert box",
+      "est_weight_g": 97,
+      "weight_source": "ycb",
+      "est_volume_cc": 174,
+      "volume_source": "ycb",
+      "crush_score": 6,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_031": {
+      "display_name": "glass cleaner spray bottle",
+      "est_weight_g": 1022,
+      "weight_source": "ycb",
+      "est_volume_cc": 2268,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Cleaning",
+      "temperature": "Ambient",
+      "spill_risk": true,
+      "spill_vulnerable": false
+    },
+    "item_032": {
+      "display_name": "golf ball",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_033": {
+      "display_name": "green apple",
+      "est_weight_g": 68,
+      "weight_source": "ycb",
+      "est_volume_cc": 221,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_034": {
+      "display_name": "hammer",
+      "est_weight_g": 800,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 1200,
+      "volume_source": "packaging_proxy",
+      "crush_score": 2,
+      "category": "Hardware",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_035": {
+      "display_name": "kitchen sponge",
+      "est_weight_g": 12,
+      "weight_source": "online",
+      "est_volume_cc": 160,
+      "volume_source": "online",
+      "crush_score": 5,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_036": {
+      "display_name": "knife",
+      "est_weight_g": 31,
+      "weight_source": "ycb",
+      "est_volume_cc": 60,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_037": {
+      "display_name": "lime",
+      "est_weight_g": 29,
+      "weight_source": "ycb",
+      "est_volume_cc": 156,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_038": {
+      "display_name": "mango",
+      "est_weight_g": 250,
+      "weight_source": "online",
+      "est_volume_cc": 350,
+      "volume_source": "online",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_039": {
+      "display_name": "mustard bottle",
+      "est_weight_g": 603,
+      "weight_source": "ycb",
+      "est_volume_cc": 744,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": true,
+      "spill_vulnerable": false
+    },
+    "item_040": {
+      "display_name": "orange",
+      "est_weight_g": 47,
+      "weight_source": "ycb",
+      "est_volume_cc": 204,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_041": {
+      "display_name": "orange",
+      "est_weight_g": 47,
+      "weight_source": "ycb",
+      "est_volume_cc": 204,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_042": {
+      "display_name": "pear",
+      "est_weight_g": 49,
+      "weight_source": "ycb",
+      "est_volume_cc": 344,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_043": {
+      "display_name": "pear",
+      "est_weight_g": 49,
+      "weight_source": "ycb",
+      "est_volume_cc": 344,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_044": {
+      "display_name": "plate",
+      "est_weight_g": 279,
+      "weight_source": "ycb",
+      "est_volume_cc": 1255,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_045": {
+      "display_name": "potato chip can",
+      "est_weight_g": 205,
+      "weight_source": "ycb",
+      "est_volume_cc": 1104,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Snacks",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_046": {
+      "display_name": "red apple",
+      "est_weight_g": 68,
+      "weight_source": "ycb",
+      "est_volume_cc": 221,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_047": {
+      "display_name": "red apple",
+      "est_weight_g": 68,
+      "weight_source": "ycb",
+      "est_volume_cc": 221,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_048": {
+      "display_name": "rubber ball",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 5,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_049": {
+      "display_name": "spam can",
+      "est_weight_g": 370,
+      "weight_source": "ycb",
+      "est_volume_cc": 398,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_050": {
+      "display_name": "spam can",
+      "est_weight_g": 370,
+      "weight_source": "ycb",
+      "est_volume_cc": 398,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_051": {
+      "display_name": "sponge ball",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 5,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_052": {
+      "display_name": "spoon",
+      "est_weight_g": 30,
+      "weight_source": "ycb",
+      "est_volume_cc": 55,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_053": {
+      "display_name": "strawberry",
+      "est_weight_g": 18,
+      "weight_source": "ycb",
+      "est_volume_cc": 83,
+      "volume_source": "ycb",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_054": {
+      "display_name": "strawberry",
+      "est_weight_g": 18,
+      "weight_source": "ycb",
+      "est_volume_cc": 83,
+      "volume_source": "ycb",
+      "crush_score": 10,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_055": {
+      "display_name": "sugar box",
+      "est_weight_g": 514,
+      "weight_source": "ycb",
+      "est_volume_cc": 592,
+      "volume_source": "ycb",
+      "crush_score": 5,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_056": {
+      "display_name": "sugar box",
+      "est_weight_g": 514,
+      "weight_source": "ycb",
+      "est_volume_cc": 592,
+      "volume_source": "ycb",
+      "crush_score": 5,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_057": {
+      "display_name": "sugar box",
+      "est_weight_g": 514,
+      "weight_source": "ycb",
+      "est_volume_cc": 592,
+      "volume_source": "ycb",
+      "crush_score": 5,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_058": {
+      "display_name": "tomato soup can",
+      "est_weight_g": 349,
+      "weight_source": "ycb",
+      "est_volume_cc": 346,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_059": {
+      "display_name": "tomato soup can",
+      "est_weight_g": 349,
+      "weight_source": "ycb",
+      "est_volume_cc": 346,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_060": {
+      "display_name": "toothbrush",
+      "est_weight_g": 200,
+      "weight_source": "weight_class_proxy",
+      "est_volume_cc": 350,
+      "volume_source": "packaging_proxy",
+      "crush_score": 4,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_061": {
+      "display_name": "toothpaste box",
+      "est_weight_g": 125,
+      "weight_source": "online",
+      "est_volume_cc": 300,
+      "volume_source": "online",
+      "crush_score": 5,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_062": {
+      "display_name": "tuna can",
+      "est_weight_g": 171,
+      "weight_source": "ycb",
+      "est_volume_cc": 187,
+      "volume_source": "ycb",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_063": {
+      "display_name": "water bottle",
+      "est_weight_g": 520,
+      "weight_source": "online",
+      "est_volume_cc": 550,
+      "volume_source": "online",
+      "crush_score": 2,
+      "category": "Pantry",
+      "temperature": "Ambient",
+      "spill_risk": true,
+      "spill_vulnerable": false
+    },
+    "item_064": {
+      "display_name": "wine cup",
+      "est_weight_g": 133,
+      "weight_source": "ycb",
+      "est_volume_cc": 852,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Household",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": false
+    },
+    "item_065": {
+      "display_name": "yellow lemon",
+      "est_weight_g": 29,
+      "weight_source": "ycb",
+      "est_volume_cc": 156,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    },
+    "item_066": {
+      "display_name": "yellow lemon",
+      "est_weight_g": 29,
+      "weight_source": "ycb",
+      "est_volume_cc": 156,
+      "volume_source": "ycb",
+      "crush_score": 8,
+      "category": "Produce",
+      "temperature": "Ambient",
+      "spill_risk": false,
+      "spill_vulnerable": true
+    }
+  },
+  "arrival_order": [
+    "item_000",
+    "item_001",
+    "item_002",
+    "item_003",
+    "item_004",
+    "item_005",
+    "item_006",
+    "item_007",
+    "item_008",
+    "item_009",
+    "item_010",
+    "item_011",
+    "item_012",
+    "item_013",
+    "item_014",
+    "item_015",
+    "item_016",
+    "item_017",
+    "item_018",
+    "item_019",
+    "item_020",
+    "item_021",
+    "item_022",
+    "item_023",
+    "item_024",
+    "item_025",
+    "item_026",
+    "item_027",
+    "item_028",
+    "item_029",
+    "item_030",
+    "item_031",
+    "item_032",
+    "item_033",
+    "item_034",
+    "item_035",
+    "item_036",
+    "item_037",
+    "item_038",
+    "item_039",
+    "item_040",
+    "item_041",
+    "item_042",
+    "item_043",
+    "item_044",
+    "item_045",
+    "item_046",
+    "item_047",
+    "item_048",
+    "item_049",
+    "item_050",
+    "item_051",
+    "item_052",
+    "item_053",
+    "item_054",
+    "item_055",
+    "item_056",
+    "item_057",
+    "item_058",
+    "item_059",
+    "item_060",
+    "item_061",
+    "item_062",
+    "item_063",
+    "item_064",
+    "item_065",
+    "item_066"
+  ],
+  "item_id_map": {
+    "item_000": {
+      "catalog_entry_index": 0,
+      "occurrence_index": 0,
+      "source_name": "bag of bananas"
+    },
+    "item_001": {
+      "catalog_entry_index": 1,
+      "occurrence_index": 0,
+      "source_name": "bag of cherries"
+    },
+    "item_002": {
+      "catalog_entry_index": 2,
+      "occurrence_index": 0,
+      "source_name": "bag of green apples"
+    },
+    "item_003": {
+      "catalog_entry_index": 3,
+      "occurrence_index": 0,
+      "source_name": "bag of limes"
+    },
+    "item_004": {
+      "catalog_entry_index": 4,
+      "occurrence_index": 0,
+      "source_name": "bag of mangoes"
+    },
+    "item_005": {
+      "catalog_entry_index": 5,
+      "occurrence_index": 0,
+      "source_name": "bag of oranges"
+    },
+    "item_006": {
+      "catalog_entry_index": 6,
+      "occurrence_index": 0,
+      "source_name": "bag of pears"
+    },
+    "item_007": {
+      "catalog_entry_index": 7,
+      "occurrence_index": 0,
+      "source_name": "bag of red apples"
+    },
+    "item_008": {
+      "catalog_entry_index": 8,
+      "occurrence_index": 0,
+      "source_name": "bag of strawberries"
+    },
+    "item_009": {
+      "catalog_entry_index": 9,
+      "occurrence_index": 0,
+      "source_name": "bag of yellow lemons"
+    },
+    "item_010": {
+      "catalog_entry_index": 10,
+      "occurrence_index": 0,
+      "source_name": "banana"
+    },
+    "item_011": {
+      "catalog_entry_index": 10,
+      "occurrence_index": 1,
+      "source_name": "banana"
+    },
+    "item_012": {
+      "catalog_entry_index": 10,
+      "occurrence_index": 2,
+      "source_name": "banana"
+    },
+    "item_013": {
+      "catalog_entry_index": 11,
+      "occurrence_index": 0,
+      "source_name": "baseball"
+    },
+    "item_014": {
+      "catalog_entry_index": 12,
+      "occurrence_index": 0,
+      "source_name": "bleach bottle"
+    },
+    "item_015": {
+      "catalog_entry_index": 13,
+      "occurrence_index": 0,
+      "source_name": "bowl"
+    },
+    "item_016": {
+      "catalog_entry_index": 14,
+      "occurrence_index": 0,
+      "source_name": "cherries"
+    },
+    "item_017": {
+      "catalog_entry_index": 15,
+      "occurrence_index": 0,
+      "source_name": "chocolate pudding box"
+    },
+    "item_018": {
+      "catalog_entry_index": 16,
+      "occurrence_index": 0,
+      "source_name": "coffee can"
+    },
+    "item_019": {
+      "catalog_entry_index": 16,
+      "occurrence_index": 1,
+      "source_name": "coffee can"
+    },
+    "item_020": {
+      "catalog_entry_index": 17,
+      "occurrence_index": 0,
+      "source_name": "cola bottle"
+    },
+    "item_021": {
+      "catalog_entry_index": 18,
+      "occurrence_index": 0,
+      "source_name": "cracker box"
+    },
+    "item_022": {
+      "catalog_entry_index": 18,
+      "occurrence_index": 1,
+      "source_name": "cracker box"
+    },
+    "item_023": {
+      "catalog_entry_index": 18,
+      "occurrence_index": 2,
+      "source_name": "cracker box"
+    },
+    "item_024": {
+      "catalog_entry_index": 19,
+      "occurrence_index": 0,
+      "source_name": "cup"
+    },
+    "item_025": {
+      "catalog_entry_index": 20,
+      "occurrence_index": 0,
+      "source_name": "dog chew toy"
+    },
+    "item_026": {
+      "catalog_entry_index": 21,
+      "occurrence_index": 0,
+      "source_name": "egg carton"
+    },
+    "item_027": {
+      "catalog_entry_index": 22,
+      "occurrence_index": 0,
+      "source_name": "electric screwdriver"
+    },
+    "item_028": {
+      "catalog_entry_index": 23,
+      "occurrence_index": 0,
+      "source_name": "energy drink can"
+    },
+    "item_029": {
+      "catalog_entry_index": 24,
+      "occurrence_index": 0,
+      "source_name": "fork"
+    },
+    "item_030": {
+      "catalog_entry_index": 25,
+      "occurrence_index": 0,
+      "source_name": "gelatin dessert box"
+    },
+    "item_031": {
+      "catalog_entry_index": 26,
+      "occurrence_index": 0,
+      "source_name": "glass cleaner spray bottle"
+    },
+    "item_032": {
+      "catalog_entry_index": 27,
+      "occurrence_index": 0,
+      "source_name": "golf ball"
+    },
+    "item_033": {
+      "catalog_entry_index": 28,
+      "occurrence_index": 0,
+      "source_name": "green apple"
+    },
+    "item_034": {
+      "catalog_entry_index": 29,
+      "occurrence_index": 0,
+      "source_name": "hammer"
+    },
+    "item_035": {
+      "catalog_entry_index": 30,
+      "occurrence_index": 0,
+      "source_name": "kitchen sponge"
+    },
+    "item_036": {
+      "catalog_entry_index": 31,
+      "occurrence_index": 0,
+      "source_name": "knife"
+    },
+    "item_037": {
+      "catalog_entry_index": 32,
+      "occurrence_index": 0,
+      "source_name": "lime"
+    },
+    "item_038": {
+      "catalog_entry_index": 33,
+      "occurrence_index": 0,
+      "source_name": "mango"
+    },
+    "item_039": {
+      "catalog_entry_index": 34,
+      "occurrence_index": 0,
+      "source_name": "mustard bottle"
+    },
+    "item_040": {
+      "catalog_entry_index": 35,
+      "occurrence_index": 0,
+      "source_name": "orange"
+    },
+    "item_041": {
+      "catalog_entry_index": 35,
+      "occurrence_index": 1,
+      "source_name": "orange"
+    },
+    "item_042": {
+      "catalog_entry_index": 36,
+      "occurrence_index": 0,
+      "source_name": "pear"
+    },
+    "item_043": {
+      "catalog_entry_index": 36,
+      "occurrence_index": 1,
+      "source_name": "pear"
+    },
+    "item_044": {
+      "catalog_entry_index": 37,
+      "occurrence_index": 0,
+      "source_name": "plate"
+    },
+    "item_045": {
+      "catalog_entry_index": 38,
+      "occurrence_index": 0,
+      "source_name": "potato chip can"
+    },
+    "item_046": {
+      "catalog_entry_index": 39,
+      "occurrence_index": 0,
+      "source_name": "red apple"
+    },
+    "item_047": {
+      "catalog_entry_index": 39,
+      "occurrence_index": 1,
+      "source_name": "red apple"
+    },
+    "item_048": {
+      "catalog_entry_index": 40,
+      "occurrence_index": 0,
+      "source_name": "rubber ball"
+    },
+    "item_049": {
+      "catalog_entry_index": 41,
+      "occurrence_index": 0,
+      "source_name": "spam can"
+    },
+    "item_050": {
+      "catalog_entry_index": 41,
+      "occurrence_index": 1,
+      "source_name": "spam can"
+    },
+    "item_051": {
+      "catalog_entry_index": 42,
+      "occurrence_index": 0,
+      "source_name": "sponge ball"
+    },
+    "item_052": {
+      "catalog_entry_index": 43,
+      "occurrence_index": 0,
+      "source_name": "spoon"
+    },
+    "item_053": {
+      "catalog_entry_index": 44,
+      "occurrence_index": 0,
+      "source_name": "strawberry"
+    },
+    "item_054": {
+      "catalog_entry_index": 44,
+      "occurrence_index": 1,
+      "source_name": "strawberry"
+    },
+    "item_055": {
+      "catalog_entry_index": 45,
+      "occurrence_index": 0,
+      "source_name": "sugar box"
+    },
+    "item_056": {
+      "catalog_entry_index": 45,
+      "occurrence_index": 1,
+      "source_name": "sugar box"
+    },
+    "item_057": {
+      "catalog_entry_index": 45,
+      "occurrence_index": 2,
+      "source_name": "sugar box"
+    },
+    "item_058": {
+      "catalog_entry_index": 46,
+      "occurrence_index": 0,
+      "source_name": "tomato soup can"
+    },
+    "item_059": {
+      "catalog_entry_index": 46,
+      "occurrence_index": 1,
+      "source_name": "tomato soup can"
+    },
+    "item_060": {
+      "catalog_entry_index": 47,
+      "occurrence_index": 0,
+      "source_name": "toothbrush"
+    },
+    "item_061": {
+      "catalog_entry_index": 48,
+      "occurrence_index": 0,
+      "source_name": "toothpaste box"
+    },
+    "item_062": {
+      "catalog_entry_index": 49,
+      "occurrence_index": 0,
+      "source_name": "tuna can"
+    },
+    "item_063": {
+      "catalog_entry_index": 50,
+      "occurrence_index": 0,
+      "source_name": "water bottle"
+    },
+    "item_064": {
+      "catalog_entry_index": 51,
+      "occurrence_index": 0,
+      "source_name": "wine cup"
+    },
+    "item_065": {
+      "catalog_entry_index": 52,
+      "occurrence_index": 0,
+      "source_name": "yellow lemon"
+    },
+    "item_066": {
+      "catalog_entry_index": 52,
+      "occurrence_index": 1,
+      "source_name": "yellow lemon"
+    }
+  }
+}
