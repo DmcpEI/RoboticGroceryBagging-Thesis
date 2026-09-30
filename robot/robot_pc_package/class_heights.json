@@ -1,0 +1,115 @@
+{
+ "_note": "metres. [min,max,n_poses] measured from the current-rig single_* captures (95th-pct height of the depth blob), widened by 20% of the observed span (>=10mm) for poses not captured. Supersedes the old-rig file built from 2-7 poses per object.",
+ "heights": {
+  "bleach bottle": [
+   0.016,
+   0.279,
+   24
+  ],
+  "bowl": [
+   0.027,
+   0.073,
+   13
+  ],
+  "chocolate pudding box": [
+   0.018,
+   0.123,
+   40
+  ],
+  "coffee can": [
+   0.084,
+   0.156,
+   49
+  ],
+  "cola bottle": [
+   0.005,
+   0.258,
+   22
+  ],
+  "cracker box": [
+   0.034,
+   0.252,
+   31
+  ],
+  "cup": [
+   0.041,
+   0.094,
+   13
+  ],
+  "egg carton": [
+   0.053,
+   0.084,
+   15
+  ],
+  "energy drink can": [
+   0.02,
+   0.157,
+   28
+  ],
+  "gelatin dessert box": [
+   0.017,
+   0.081,
+   32
+  ],
+  "glass cleaner spray bottle": [
+   0.023,
+   0.314,
+   23
+  ],
+  "kitchen sponge": [
+   0.017,
+   0.072,
+   6
+  ],
+  "mustard bottle": [
+   0.025,
+   0.2,
+   24
+  ],
+  "plate": [
+   0.017,
+   0.058,
+   12
+  ],
+  "potato chip can": [
+   0.032,
+   0.27,
+   30
+  ],
+  "spam can": [
+   0.039,
+   0.095,
+   39
+  ],
+  "sugar box": [
+   0.009,
+   0.207,
+   31
+  ],
+  "tomato soup can": [
+   0.045,
+   0.111,
+   29
+  ],
+  "toothpaste box": [
+   0.005,
+   0.211,
+   20
+  ],
+  "tuna can": [
+   0.022,
+   0.091,
+   40
+  ],
+  "water bottle": [
+   0.025,
+   0.212,
+   24
+  ],
+  "wine cup": [
+   0.038,
+   0.137,
+   15
+  ]
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "_unknown_object_default": {
+  "est_weight_g": 800,
+  "est_volume_cc": 700,
+  "crush_score": 5,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "cracker box": {
+  "est_weight_g": 411,
+  "est_volume_cc": 1991,
+  "crush_score": 6,
+  "category": "Snacks",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "sugar box": {
+  "est_weight_g": 514,
+  "est_volume_cc": 592,
+  "crush_score": 5,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "mustard bottle": {
+  "est_weight_g": 603,
+  "est_volume_cc": 744,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": true,
+  "spill_vulnerable": false
+ },
+ "water bottle": {
+  "est_weight_g": 520,
+  "est_volume_cc": 550,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": true,
+  "spill_vulnerable": false
+ },
+ "cola bottle": {
+  "est_weight_g": 545,
+  "est_volume_cc": 550,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": true,
+  "spill_vulnerable": false
+ },
+ "energy drink can": {
+  "est_weight_g": 270,
+  "est_volume_cc": 290,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "gelatin dessert box": {
+  "est_weight_g": 97,
+  "est_volume_cc": 174,
+  "crush_score": 6,
+  "category": "Snacks",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "kitchen sponge": {
+  "est_weight_g": 12,
+  "est_volume_cc": 160,
+  "crush_score": 5,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "mango": {
+  "est_weight_g": 250,
+  "est_volume_cc": 350,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "tuna can": {
+  "est_weight_g": 171,
+  "est_volume_cc": 187,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "cherries": {
+  "est_weight_g": 12,
+  "est_volume_cc": 15,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "banana": {
+  "est_weight_g": 66,
+  "est_volume_cc": 193,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "orange": {
+  "est_weight_g": 47,
+  "est_volume_cc": 204,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "red apple": {
+  "est_weight_g": 68,
+  "est_volume_cc": 221,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "green apple": {
+  "est_weight_g": 68,
+  "est_volume_cc": 221,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "yellow lemon": {
+  "est_weight_g": 29,
+  "est_volume_cc": 156,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "lime": {
+  "est_weight_g": 29,
+  "est_volume_cc": 156,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "strawberry": {
+  "est_weight_g": 18,
+  "est_volume_cc": 83,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "pear": {
+  "est_weight_g": 49,
+  "est_volume_cc": 344,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "toothpaste box": {
+  "est_weight_g": 125,
+  "est_volume_cc": 300,
+  "crush_score": 5,
+  "category": "Cleaning",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "bowl": {
+  "est_weight_g": 147,
+  "est_volume_cc": 1052,
+  "crush_score": 2,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "cup": {
+  "est_weight_g": 118,
+  "est_volume_cc": 450,
+  "crush_score": 8,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "bleach bottle": {
+  "est_weight_g": 1131,
+  "est_volume_cc": 1592,
+  "crush_score": 2,
+  "category": "Cleaning",
+  "temperature": "Ambient",
+  "spill_risk": true,
+  "spill_vulnerable": false
+ },
+ "glass cleaner spray bottle": {
+  "est_weight_g": 1022,
+  "est_volume_cc": 2268,
+  "crush_score": 2,
+  "category": "Cleaning",
+  "temperature": "Ambient",
+  "spill_risk": true,
+  "spill_vulnerable": false
+ },
+ "spam can": {
+  "est_weight_g": 370,
+  "est_volume_cc": 398,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "coffee can": {
+  "est_weight_g": 414,
+  "est_volume_cc": 1136,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "tomato soup can": {
+  "est_weight_g": 349,
+  "est_volume_cc": 346,
+  "crush_score": 2,
+  "category": "Pantry",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "wine cup": {
+  "est_weight_g": 133,
+  "est_volume_cc": 852,
+  "crush_score": 8,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "potato chip can": {
+  "est_weight_g": 205,
+  "est_volume_cc": 1104,
+  "crush_score": 2,
+  "category": "Snacks",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "egg carton": {
+  "est_weight_g": 385,
+  "est_volume_cc": 1300,
+  "crush_score": 9,
+  "category": "Dairy",
+  "temperature": "Refrigerated",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "plate": {
+  "est_weight_g": 279,
+  "est_volume_cc": 1255,
+  "crush_score": 2,
+  "category": "Household",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": false
+ },
+ "chocolate pudding box": {
+  "est_weight_g": 187,
+  "est_volume_cc": 342,
+  "crush_score": 6,
+  "category": "Snacks",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of bananas": {
+  "est_weight_g": 477,
+  "est_volume_cc": 772,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of cherries": {
+  "est_weight_g": 33,
+  "est_volume_cc": 60,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of green apples": {
+  "est_weight_g": 733,
+  "est_volume_cc": 884,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of limes": {
+  "est_weight_g": 285,
+  "est_volume_cc": 624,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of mangoes": {
+  "est_weight_g": 1349,
+  "est_volume_cc": 1400,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of oranges": {
+  "est_weight_g": 609,
+  "est_volume_cc": 816,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of pears": {
+  "est_weight_g": 717,
+  "est_volume_cc": 1376,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of red apples": {
+  "est_weight_g": 733,
+  "est_volume_cc": 884,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of strawberries": {
+  "est_weight_g": 53,
+  "est_volume_cc": 332,
+  "crush_score": 10,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ },
+ "bag of yellow lemons": {
+  "est_weight_g": 485,
+  "est_volume_cc": 624,
+  "crush_score": 8,
+  "category": "Produce",
+  "temperature": "Ambient",
+  "spill_risk": false,
+  "spill_vulnerable": true
+ }
+}
