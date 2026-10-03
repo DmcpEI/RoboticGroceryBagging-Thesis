@@ -66,7 +66,7 @@ def main() -> int:
     src.add_argument("--scenes", type=Path, help="datasets_perception root: <scene>/frames/frame_000.png")
     src.add_argument("--crops", type=Path, help="crop_manifest.json of detector regions")
     ap.add_argument("--model", default="/workspace/models/qwen3-vl-32b-instruct")
-    ap.add_argument("--adapter", required=True)
+    ap.add_argument("--adapter", help="LoRA adapter; omit for the base model")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--max-new-tokens", type=int, default=1536)
     ap.add_argument("--image-max-side", type=int, default=768)
@@ -90,7 +90,9 @@ def main() -> int:
     processor = AutoProcessor.from_pretrained(args.model, trust_remote_code=True)
     model = AutoModelForImageTextToText.from_pretrained(
         args.model, torch_dtype=torch.bfloat16, device_map="cuda", trust_remote_code=True)
-    model = PeftModel.from_pretrained(model, args.adapter).eval()
+    if args.adapter:
+        model = PeftModel.from_pretrained(model, args.adapter)
+    model.eval()
 
     for n, (jid, img_path, prompt) in enumerate(todo, 1):
         image = Image.open(img_path).convert("RGB")
@@ -111,7 +113,7 @@ def main() -> int:
             "items": items or [],
             "metadata": {"parse_failed": items is None, "raw": reply if items is None else None,
                          "prompt_sha1": hashlib.sha1(prompt.encode()).hexdigest()[:12],
-                         "adapter": str(args.adapter)}}, indent=1))
+                         "adapter": str(args.adapter or "none")}}, indent=1))
         if n % 25 == 0:
             print(f"  {n}/{len(todo)}", flush=True)
     print("done", flush=True)
