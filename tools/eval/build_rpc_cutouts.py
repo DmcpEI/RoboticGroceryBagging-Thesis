@@ -78,6 +78,7 @@ def main() -> int:
     args = ap.parse_args()
 
     random.seed(args.seed)
+    args.out = args.out.resolve()
     args.out.mkdir(parents=True, exist_ok=True)
     man, degenerate = [], 0
 
