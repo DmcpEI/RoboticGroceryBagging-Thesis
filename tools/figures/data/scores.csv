@@ -1,11 +1,11 @@
 characteristic,robot,retail,retail_note
-identity,0.868,0.566,
-group,0.945,0.831,
-packaging,0.947,0.828,
-quantity,0.711,0.312,
-weight,0.913,0.880,
-rigidity,0.930,0.889,
-crush score,0.923,0.867,
-cold chain,0.972,0.927,no refrigerated product in the retail catalog
-spill risk,0.934,0.895,
-edible,0.945,0.884,
+identity,0.868,0.586,
+group,0.945,0.866,
+packaging,0.947,0.868,
+quantity,0.711,0.374,
+weight,0.913,0.893,
+rigidity,0.930,0.900,
+crush score,0.923,0.889,
+cold chain,0.972,0.935,no refrigerated product in the retail catalog
+spill risk,0.934,0.906,
+edible,0.945,0.912,
