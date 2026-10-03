@@ -135,7 +135,7 @@ def main() -> int:
         audited_bags, totals = _audit_bags(repaired, items_data, arrival_order)
         total_pairwise = sum(v for k, v in totals.items() if k.startswith("pairwise_"))
         total_bag_level = sum(totals.get(k, 0) for k in (
-            "raw_meat_with_non_raw", "cleaning_with_non_cleaning", "ambient_with_nonambient",
+            "raw_meat_with_non_raw", "chemical_with_food", "ambient_with_nonambient",
             "crush", "spill_risk_with_vulnerable"))
         total_capacity = totals.get("over_weight", 0) + totals.get("over_volume", 0)
 

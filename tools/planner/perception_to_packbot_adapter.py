@@ -445,6 +445,7 @@ def _build_extended_packbot_item(item: Dict[str, Any]) -> Dict[str, Any]:
     spill_risk = bool(item.get("spill_risk", item.get("leak_risk") or item.get("is_liquid", False)))
 
     base["spill_risk"] = spill_risk
+    base["edible"] = base["_source"]["edible"]
     base["spill_vulnerable"] = (
         base["category"] in SPILL_VULNERABLE_CATEGORIES if _PLANNER_V1
         else norm_key_part(item.get("group", ""), "other") in SPILL_VULNERABLE_GROUPS)

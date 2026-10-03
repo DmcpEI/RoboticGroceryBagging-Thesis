@@ -24,6 +24,8 @@ if root_str not in sys.path:
     sys.path.insert(0, root_str)
 
 from tools.planner.planner_safety_audit import (
+    MAX_BAG_VOLUME_CC,
+    MAX_BAG_WEIGHT_G,
     SAFETY_FAMILIES,
     bag_violation_flags,
     pair_violations_for_items,
@@ -54,6 +56,7 @@ def _prompt_for_scene(scene_id: str, items_data: Mapping[str, Mapping[str, Any]]
                 "id": item_id,
                 "name": item.get("display_name", item_id),
                 "category": item.get("category"),
+                "edible": bool(item.get("edible", True)),
                 "temperature": item.get("temperature"),
                 "est_weight_g": item.get("est_weight_g"),
                 "est_volume_cc": item.get("est_volume_cc"),
@@ -68,12 +71,12 @@ def _prompt_for_scene(scene_id: str, items_data: Mapping[str, Mapping[str, Any]]
 Pack the listed items into grocery bags. Use as few bags as possible, but avoid unsafe combinations.
 
 Hard capacity limits:
-- maximum bag weight: 7000 g
-- maximum bag volume: 20000 cc
+- maximum bag weight: {MAX_BAG_WEIGHT_G} g
+- maximum bag volume: {MAX_BAG_VOLUME_CC} cc
 
 Safety preferences:
 - keep raw meat separate from all non-raw items
-- keep cleaning products separate from non-cleaning products
+- keep cleaning products out of any bag holding food (edible items)
 - keep ambient items separate from refrigerated/frozen items
 - avoid putting items with a low crush_score above items with a high one; crush_score is load tolerance, so 10 means nothing may rest on the item and 1 means it bears anything. Arrival order is bottom-to-top if two items share a bag
 - keep spill-risk items away from spill-vulnerable bakery/produce/snack items
@@ -191,8 +194,8 @@ def _capacity_flags(bag_items: Sequence[Mapping[str, Any]]) -> Dict[str, bool]:
     total_weight = sum(int(item.get("est_weight_g", 0)) for item in bag_items)
     total_volume = sum(int(item.get("est_volume_cc", 0)) for item in bag_items)
     return {
-        "over_weight": total_weight > 7000,
-        "over_volume": total_volume > 20000,
+        "over_weight": total_weight > MAX_BAG_WEIGHT_G,
+        "over_volume": total_volume > MAX_BAG_VOLUME_CC,
     }
 
 
@@ -226,8 +229,7 @@ def _audit_bags(
         "over_weight": 0,
         "over_volume": 0,
         "raw_meat_with_non_raw": 0,
-        "cleaning_with_non_cleaning": 0,
-        "cleaning_with_food": 0,
+        "chemical_with_food": 0,
         "frozen_with_ambient": 0,
         "ambient_with_nonambient": 0,
         "crush": 0,
@@ -336,7 +338,7 @@ def _run_scene(
         totals.get(key, 0)
         for key in (
             "raw_meat_with_non_raw",
-            "cleaning_with_non_cleaning",
+            "chemical_with_food",
             "ambient_with_nonambient",
             "crush",
             "spill_risk_with_vulnerable",

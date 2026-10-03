@@ -42,6 +42,7 @@ PLANNER_FIELDS = [
     "temperature",
     "spill_risk",
     "spill_vulnerable",
+    "edible",
 ]
 
 

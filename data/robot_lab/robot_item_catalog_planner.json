@@ -33,7 +33,8 @@
       "category",
       "temperature",
       "spill_risk",
-      "spill_vulnerable"
+      "spill_vulnerable",
+      "edible"
     ],
     "item_instances": 67,
     "source_entries": 53,
@@ -51,6 +52,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_001": {
@@ -63,6 +65,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_002": {
@@ -75,6 +78,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_003": {
@@ -87,6 +91,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_004": {
@@ -99,6 +104,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_005": {
@@ -111,6 +117,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_006": {
@@ -123,6 +130,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_007": {
@@ -135,6 +143,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_008": {
@@ -147,6 +156,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_009": {
@@ -159,6 +169,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_010": {
@@ -171,6 +182,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_011": {
@@ -183,6 +195,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_012": {
@@ -195,6 +208,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_013": {
@@ -207,6 +221,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_014": {
@@ -219,6 +234,7 @@
       "category": "Cleaning",
       "temperature": "Ambient",
       "spill_risk": true,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_015": {
@@ -231,6 +247,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_016": {
@@ -243,6 +260,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_017": {
@@ -255,6 +273,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_018": {
@@ -267,6 +286,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_019": {
@@ -279,6 +299,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_020": {
@@ -291,6 +312,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": true,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_021": {
@@ -303,6 +325,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_022": {
@@ -315,6 +338,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_023": {
@@ -327,6 +351,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_024": {
@@ -339,6 +364,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_025": {
@@ -351,6 +377,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_026": {
@@ -363,6 +390,7 @@
       "category": "Dairy",
       "temperature": "Refrigerated",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_027": {
@@ -375,6 +403,7 @@
       "category": "Hardware",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_028": {
@@ -387,6 +416,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_029": {
@@ -399,6 +429,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_030": {
@@ -411,6 +442,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_031": {
@@ -423,6 +455,7 @@
       "category": "Cleaning",
       "temperature": "Ambient",
       "spill_risk": true,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_032": {
@@ -435,6 +468,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_033": {
@@ -447,6 +481,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_034": {
@@ -459,6 +494,7 @@
       "category": "Hardware",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_035": {
@@ -471,6 +507,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_036": {
@@ -483,6 +520,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_037": {
@@ -495,6 +533,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_038": {
@@ -507,6 +546,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_039": {
@@ -519,6 +559,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": true,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_040": {
@@ -531,6 +572,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_041": {
@@ -543,6 +585,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_042": {
@@ -555,6 +598,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_043": {
@@ -567,6 +611,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_044": {
@@ -579,6 +624,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_045": {
@@ -591,6 +637,7 @@
       "category": "Snacks",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_046": {
@@ -603,6 +650,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_047": {
@@ -615,6 +663,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_048": {
@@ -627,6 +676,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_049": {
@@ -639,6 +689,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_050": {
@@ -651,6 +702,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_051": {
@@ -663,6 +715,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_052": {
@@ -675,6 +728,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_053": {
@@ -687,6 +741,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_054": {
@@ -699,6 +754,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_055": {
@@ -711,6 +767,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_056": {
@@ -723,6 +780,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_057": {
@@ -735,6 +793,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_058": {
@@ -747,6 +806,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_059": {
@@ -759,6 +819,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_060": {
@@ -771,6 +832,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_061": {
@@ -783,6 +845,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_062": {
@@ -795,6 +858,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_063": {
@@ -807,6 +871,7 @@
       "category": "Pantry",
       "temperature": "Ambient",
       "spill_risk": true,
+      "edible": true,
       "spill_vulnerable": false
     },
     "item_064": {
@@ -819,6 +884,7 @@
       "category": "Household",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": false,
       "spill_vulnerable": false
     },
     "item_065": {
@@ -831,6 +897,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     },
     "item_066": {
@@ -843,6 +910,7 @@
       "category": "Produce",
       "temperature": "Ambient",
       "spill_risk": false,
+      "edible": true,
       "spill_vulnerable": true
     }
   },

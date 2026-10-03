@@ -38,6 +38,16 @@ r=solve_bagging_extended({"a":item(group="cleaning"),"b":item()},["a","b"])
 assert r["total_bags_used"]==2, r
 r=solve_bagging_extended({"a":item(),"b":item()},["a","b"])
 assert r["total_bags_used"]==1, r
+# a chemical may share a bag with a non-food item (a sponge), in the solver and the audit
+r=solve_bagging_extended({"a":item(group="cleaning",edible=False),"b":item(group="household",edible=False)},["a","b"])
+assert r["total_bags_used"]==1, r
+from planner_safety_audit import pair_violations_for_items
+from soft_packbot_cp import _pair_violations_for_items as soft_pairs
+chem={"category":"Cleaning","edible":False}; sponge={"category":"Household","edible":False}
+food={"category":"Pantry","edible":True}
+for f in (lambda a,b: pair_violations_for_items(a,b,ordered=False),
+          lambda a,b: soft_pairs(a,b,ordered=False)):
+    assert "chemical_with_food" in f(chem,food) and not f(chem,sponge) and not f(chem,chem)
 # capacity now binds at 5000cc, not 20000
 r=solve_bagging_extended({"a":item(est_volume_cc=3000),"b":item(est_volume_cc=3000)},["a","b"])
 assert r["total_bags_used"]==2, ("6000cc must not fit one 5000cc bag", r)

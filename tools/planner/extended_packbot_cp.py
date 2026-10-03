@@ -65,6 +65,14 @@ def _is_raw_meat(p) -> bool:
     return "Raw Meat" in str(p.get("category", ""))
 
 
+def _is_food(p) -> bool:
+    """`edible`, read from the item or its `_source`; unknown counts as food."""
+    v = p.get("edible")
+    if v is None:
+        v = (p.get("_source") or {}).get("edible")
+    return True if v is None else bool(v)
+
+
 def _needs_cold(p) -> bool:
     """True when the item may not share a bag with ambient goods.
 
@@ -145,7 +153,11 @@ def solve_bagging_extended(
                 p1 = items_data[item_list[i1]]
                 p2 = items_data[item_list[i2]]
 
-                is_chemical_food_mix = _is_chemical(p1) != _is_chemical(p2)
+                if PLANNER_V1:
+                    is_chemical_food_mix = _is_chemical(p1) != _is_chemical(p2)
+                else:  # a chemical may not share a bag with food
+                    is_chemical_food_mix = ((_is_chemical(p1) and _is_food(p2))
+                                            or (_is_chemical(p2) and _is_food(p1)))
                 is_raw_meat_mix = _is_raw_meat(p1) != _is_raw_meat(p2)
                 is_temp_mix = _needs_cold(p1) != _needs_cold(p2)
 

@@ -18,17 +18,17 @@ from __future__ import annotations
 from typing import Any, Dict, Iterable, List, Mapping, Sequence
 
 
-MAX_BAG_WEIGHT_G = 7000
-MAX_BAG_VOLUME_CC = 20000
+# The bag of the collaborator's bagging environment, as in extended_packbot_cp.
+MAX_BAG_WEIGHT_G = 5000
+MAX_BAG_VOLUME_CC = 5000
 CRUSH_THRESHOLD_FRAGILE = 8
 CRUSH_THRESHOLD_HEAVY = 2
 
-FOOD_CATEGORIES = {"Bakery", "Dairy", "Frozen", "Pantry", "Produce", "Raw Meat", "Snacks"}
 NON_AMBIENT_TEMPS = {"Frozen", "Refrigerated"}
 
 SAFETY_FAMILIES = (
     "raw_meat_with_non_raw",
-    "cleaning_with_non_cleaning",
+    "chemical_with_food",
     "ambient_with_nonambient",
     "crush",
     "spill_risk_with_vulnerable",
@@ -45,6 +45,15 @@ def _is_raw_meat(props: Mapping[str, Any]) -> bool:
 
 def _is_cleaning(props: Mapping[str, Any]) -> bool:
     return _contains(props.get("category"), "Cleaning")
+
+
+def _is_food(props: Mapping[str, Any]) -> bool:
+    """`edible`, read from the item or its `_source`; an item of unknown
+    edibility counts as food, so a chemical is never bagged with it."""
+    v = props.get("edible")
+    if v is None:
+        v = (props.get("_source") or {}).get("edible")
+    return True if v is None else bool(v)
 
 
 def _is_ambient(props: Mapping[str, Any]) -> bool:
@@ -102,12 +111,12 @@ def pair_violations_for_items(
     if is_raw_meat_mix:
         families.append("raw_meat_with_non_raw")
 
-    is_cleaning_mix = (
-        (_is_cleaning(bottom_props) and not _is_cleaning(top_props))
-        or (_is_cleaning(top_props) and not _is_cleaning(bottom_props))
+    is_chemical_food_mix = (
+        (_is_cleaning(bottom_props) and _is_food(top_props))
+        or (_is_cleaning(top_props) and _is_food(bottom_props))
     )
-    if is_cleaning_mix:
-        families.append("cleaning_with_non_cleaning")
+    if is_chemical_food_mix:
+        families.append("chemical_with_food")
 
     is_temp_mix = (
         (_is_ambient(bottom_props) and _is_nonambient(top_props))
@@ -141,8 +150,7 @@ def bag_violation_flags(
     has_raw_meat = any(cat == "Raw Meat" for cat in categories)
     has_non_raw = any(cat != "Raw Meat" for cat in categories)
     has_cleaning = any(cat == "Cleaning" for cat in categories)
-    has_non_cleaning = any(cat != "Cleaning" for cat in categories)
-    has_food = any(cat in FOOD_CATEGORIES for cat in categories)
+    has_food = any(_is_food(item) for item in bag_item_dicts)
     has_frozen = any(temp == "Frozen" for temp in temps)
     has_ambient = any(temp == "Ambient" for temp in temps)
     has_nonambient = any(temp in NON_AMBIENT_TEMPS for temp in temps)
@@ -167,8 +175,7 @@ def bag_violation_flags(
 
     return {
         "raw_meat_with_non_raw": bool(has_raw_meat and has_non_raw),
-        "cleaning_with_non_cleaning": bool(has_cleaning and has_non_cleaning),
-        "cleaning_with_food": bool(has_cleaning and has_food),
+        "chemical_with_food": bool(has_cleaning and has_food),
         "frozen_with_ambient": bool(has_frozen and has_ambient),
         "ambient_with_nonambient": bool(has_ambient and has_nonambient),
         "crush": has_crush,
@@ -179,8 +186,7 @@ def bag_violation_flags(
 def empty_violation_totals() -> Dict[str, int]:
     return {
         "raw_meat_with_non_raw": 0,
-        "cleaning_with_non_cleaning": 0,
-        "cleaning_with_food": 0,
+        "chemical_with_food": 0,
         "frozen_with_ambient": 0,
         "ambient_with_nonambient": 0,
         "crush": 0,

@@ -37,7 +37,7 @@ PLANNER_CATALOG = ROOT / "data/robot_lab/robot_item_catalog_planner.json"
 # Settled Decision 14 deleted the field; the copy outlived it and wrote a
 # constant False into every row. Removed 2026-08-31.
 PLANNER_FIELDS = ["est_weight_g", "est_volume_cc", "crush_score", "category",
-                  "temperature", "spill_risk", "spill_vulnerable"]
+                  "temperature", "spill_risk", "spill_vulnerable", "edible"]
 SPILL_VULNERABLE_CATS = {"Bakery", "Produce", "Snacks"}
 
 
@@ -60,6 +60,7 @@ def estimate_attrs(item):
         "temperature": pb["temperature"],
         "spill_risk": bool(item.get("spill_risk", item.get("leak_risk") or item.get("is_liquid"))),
         "spill_vulnerable": cat in SPILL_VULNERABLE_CATS,
+        "edible": pb["_source"]["edible"],
     }
 
 
