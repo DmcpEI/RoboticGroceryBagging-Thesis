@@ -12,7 +12,7 @@ the same attribution the name-confusion analysis uses, and no more reliable
 than that, since there are no ground-truth boxes to match against -- and asks
 whether the substitute is treated the same by the solver: the same membership of
 every separation set (chemical, raw meat, refrigerated, may leak, spoiled by a
-leak) and the same load class (protected, neutral, heavy). Where it is not, it
+leak), whether it is food (which a chemical may not share a bag with) and the same load class (protected, neutral, heavy). Where it is not, it
 reports which of these moved. Other fields (weight class, rigidity) only reach
 the solver through capacity or through the load class, so they are not counted
 on their own.
@@ -42,12 +42,12 @@ def predicates(p: dict) -> dict:
     if not p:
         return {}
     load = "protected" if psa._is_fragile(p) else "heavy" if psa._is_heavy(p) else "neutral"
-    return {"chemical": psa._is_cleaning(p), "raw_meat": psa._is_raw_meat(p),
+    return {"chemical": psa._is_cleaning(p), "food": psa._is_food(p), "raw_meat": psa._is_raw_meat(p),
             "refrigerated": psa._is_nonambient(p), "may_leak": bool(p.get("spill_risk")),
             "spoiled_by_leak": bool(p.get("spill_vulnerable")), "load": load}
 
 
-SAFETY = ("chemical", "raw_meat", "refrigerated", "may_leak", "spoiled_by_leak", "load")
+SAFETY = ("chemical", "food", "raw_meat", "refrigerated", "may_leak", "spoiled_by_leak", "load")
 KEYS = SAFETY
 
 
