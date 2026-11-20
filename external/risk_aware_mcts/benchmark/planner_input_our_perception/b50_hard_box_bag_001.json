@@ -1,0 +1,115 @@
+{
+ "scene_id": "b50_hard_box_bag_001",
+ "items_data": {
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "coffee can_1": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "bag of pears_1": {
+   "est_weight_g": 717,
+   "est_volume_cc": 1376,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of pears"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "coffee can_2": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "potato chip can_1": {
+   "est_weight_g": 205,
+   "est_volume_cc": 1104,
+   "crush_score": 2,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "potato chip can"
+  },
+  "sugar box_2": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "toothpaste box_1": {
+   "est_weight_g": 125,
+   "est_volume_cc": 300,
+   "crush_score": 5,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "toothpaste box"
+  },
+  "chocolate pudding box_1": {
+   "est_weight_g": 187,
+   "est_volume_cc": 342,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "chocolate pudding box"
+  },
+  "chocolate pudding box_2": {
+   "est_weight_g": 187,
+   "est_volume_cc": 342,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "chocolate pudding box"
+  }
+ }
+}

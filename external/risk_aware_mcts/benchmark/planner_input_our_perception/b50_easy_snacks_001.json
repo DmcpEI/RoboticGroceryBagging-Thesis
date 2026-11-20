@@ -1,0 +1,55 @@
+{
+ "scene_id": "b50_easy_snacks_001",
+ "items_data": {
+  "chocolate pudding box_1": {
+   "est_weight_g": 187,
+   "est_volume_cc": 342,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "chocolate pudding box"
+  },
+  "potato chip can_1": {
+   "est_weight_g": 205,
+   "est_volume_cc": 1104,
+   "crush_score": 2,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "potato chip can"
+  },
+  "mustard bottle_1": {
+   "est_weight_g": 603,
+   "est_volume_cc": 744,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "mustard bottle"
+  },
+  "energy drink can_1": {
+   "est_weight_g": 270,
+   "est_volume_cc": 290,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "energy drink can"
+  },
+  "kitchen sponge_1": {
+   "est_weight_g": 12,
+   "est_volume_cc": 160,
+   "crush_score": 5,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "kitchen sponge"
+  }
+ }
+}

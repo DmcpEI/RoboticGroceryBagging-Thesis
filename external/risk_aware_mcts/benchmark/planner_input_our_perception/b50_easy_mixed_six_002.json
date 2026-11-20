@@ -1,0 +1,75 @@
+{
+ "scene_id": "b50_easy_mixed_six_002",
+ "items_data": {
+  "egg carton_1": {
+   "est_weight_g": 385,
+   "est_volume_cc": 1300,
+   "crush_score": 9,
+   "category": "Dairy",
+   "temperature": "Refrigerated",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "egg carton"
+  },
+  "water bottle_1": {
+   "est_weight_g": 520,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "water bottle"
+  },
+  "bowl_1": {
+   "est_weight_g": 147,
+   "est_volume_cc": 1052,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "bowl"
+  },
+  "glass cleaner spray bottle_1": {
+   "est_weight_g": 1022,
+   "est_volume_cc": 2268,
+   "crush_score": 2,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "glass cleaner spray bottle"
+  },
+  "coffee can_1": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "chocolate pudding box_1": {
+   "est_weight_g": 187,
+   "est_volume_cc": 342,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "chocolate pudding box"
+  },
+  "glass cleaner spray bottle_2": {
+   "est_weight_g": 1022,
+   "est_volume_cc": 2268,
+   "crush_score": 2,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "glass cleaner spray bottle"
+  }
+ }
+}

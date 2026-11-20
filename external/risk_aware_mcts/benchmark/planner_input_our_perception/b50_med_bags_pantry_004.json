@@ -1,0 +1,75 @@
+{
+ "scene_id": "b50_med_bags_pantry_004",
+ "items_data": {
+  "bag of oranges_1": {
+   "est_weight_g": 609,
+   "est_volume_cc": 816,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of oranges"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "water bottle_1": {
+   "est_weight_g": 520,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "water bottle"
+  },
+  "spam can_1": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "spam can_2": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "bag of strawberries_1": {
+   "est_weight_g": 53,
+   "est_volume_cc": 332,
+   "crush_score": 10,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of strawberries"
+  }
+ }
+}

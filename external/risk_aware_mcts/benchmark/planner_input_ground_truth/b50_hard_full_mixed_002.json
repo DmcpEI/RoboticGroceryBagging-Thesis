@@ -1,0 +1,145 @@
+{
+ "scene_id": "b50_hard_full_mixed_002",
+ "items_data": {
+  "coffee can_1": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "coffee can_2": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "cola bottle_1": {
+   "est_weight_g": 545,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "cola bottle"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "energy drink can_1": {
+   "est_weight_g": 270,
+   "est_volume_cc": 290,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "energy drink can"
+  },
+  "potato chip can_1": {
+   "est_weight_g": 205,
+   "est_volume_cc": 1104,
+   "crush_score": 2,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "potato chip can"
+  },
+  "spam can_1": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "spam can_2": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "tomato soup can_1": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  },
+  "tomato soup can_2": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "water bottle_1": {
+   "est_weight_g": 520,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "water bottle"
+  }
+ }
+}

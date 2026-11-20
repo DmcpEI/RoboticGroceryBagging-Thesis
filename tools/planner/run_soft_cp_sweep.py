@@ -33,6 +33,17 @@ from tools.planner.perception_to_packbot_adapter import (
 from tools.planner.soft_packbot_cp import SAFETY_FAMILIES, solve_bagging_soft
 
 
+# name -> {measured_weight_g, true_volume_cc}, filled by --catalog-weights.
+# Empty means weight and volume are estimated from weight_class and packaging,
+# which is how every sweep before 2026-10-21 was run.
+_CATALOG_VALUES: Dict[str, Dict[str, Any]] = {}
+
+
+def _with_catalog_values(item: Dict[str, Any]) -> Dict[str, Any]:
+    vals = _CATALOG_VALUES.get(str(item.get("name") or ""))
+    return {**item, **vals} if vals else item
+
+
 DEFAULT_LAMBDAS = [0, 10, 25, 50, 100, 250, 500, 750, 999, 1000, 1001, 2000, 5000, 10000]
 
 
@@ -111,7 +122,7 @@ def _items_from_gt_scene(gt_scene_dir: Path) -> Tuple[Dict[str, Dict[str, Any]],
     arrival_order: List[str] = []
     for event in events:
         item_id = str(event["entity_id"])
-        items_data[item_id] = _build_extended_packbot_item(event["item"])
+        items_data[item_id] = _build_extended_packbot_item(_with_catalog_values(event["item"]))
         arrival_order.append(item_id)
     return (
         items_data,
@@ -148,7 +159,7 @@ def _build_predicted_extended_instances_from_scene(
             for _ in range(qty - current_seen):
                 item_id = _new_item_id(counter)
                 counter += 1
-                items_data[item_id] = _build_extended_packbot_item(item)
+                items_data[item_id] = _build_extended_packbot_item(_with_catalog_values(item))
                 ids_by_sig[sig].append(item_id)
                 first_seen_order.append(item_id)
             seen_count_by_sig[sig] = qty
@@ -478,6 +489,7 @@ def run_sweep(
             "bag_cost": bag_cost,
             "max_time_seconds": max_time_seconds,
             "signature_width": signature_width,
+            "catalog_weights": bool(_CATALOG_VALUES),
         },
         "aggregate": aggregate,
         "thresholds": thresholds,
@@ -501,6 +513,13 @@ def main() -> None:
         default="wide",
         help="Sequential dedup signature width for GT/predicted planner inputs.",
     )
+    parser.add_argument(
+        "--catalog-weights",
+        type=Path,
+        default=None,
+        help="Catalog JSON (e.g. data/robot_lab/robot_item_catalog_perception.json): use each "
+        "product's grams and volume instead of the weight_class/packaging estimates.",
+    )
     parser.add_argument("--output-json", type=Path, default=ROOT_DIR / "runs/eval/soft_cp_sweep.json")
     parser.add_argument("--output-csv", type=Path, default=ROOT_DIR / "runs/eval/soft_cp_sweep.csv")
     parser.add_argument(
@@ -515,6 +534,12 @@ def main() -> None:
     )
     parser.add_argument("--output-md", type=Path, default=ROOT_DIR / "runs/eval/soft_cp_sweep_summary.md")
     args = parser.parse_args()
+
+    if args.catalog_weights:
+        for e in json.loads(args.catalog_weights.read_text(encoding="utf-8"))["items"]:
+            vals = {k: e.get(k) for k in ("measured_weight_g", "true_volume_cc") if e.get(k)}
+            if vals:
+                _CATALOG_VALUES[e["name"]] = vals
 
     summary = run_sweep(
         mode=args.mode,

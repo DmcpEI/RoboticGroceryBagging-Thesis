@@ -1,0 +1,75 @@
+{
+ "scene_id": "b50_med_boxes_cans_005",
+ "items_data": {
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "egg carton_1": {
+   "est_weight_g": 385,
+   "est_volume_cc": 1300,
+   "crush_score": 9,
+   "category": "Dairy",
+   "temperature": "Refrigerated",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "egg carton"
+  },
+  "cola bottle_1": {
+   "est_weight_g": 545,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "cola bottle"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "coffee can_1": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "coffee can_2": {
+   "est_weight_g": 414,
+   "est_volume_cc": 1136,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "coffee can"
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "scene_id": "b50_med_can_cluster_003",
+ "items_data": {
+  "potato chip can_1": {
+   "est_weight_g": 205,
+   "est_volume_cc": 1104,
+   "crush_score": 2,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "potato chip can"
+  },
+  "tomato soup can_1": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  },
+  "spam can_1": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "wine cup_1": {
+   "est_weight_g": 133,
+   "est_volume_cc": 852,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "wine cup"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "energy drink can_1": {
+   "est_weight_g": 270,
+   "est_volume_cc": 290,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "energy drink can"
+  },
+  "spam can_2": {
+   "est_weight_g": 370,
+   "est_volume_cc": 398,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "spam can"
+  },
+  "tomato soup can_2": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "scene_id": "b50_easy_bag_oranges_002",
+ "items_data": {
+  "bag of oranges_1": {
+   "est_weight_g": 609,
+   "est_volume_cc": 816,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of oranges"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "water bottle_1": {
+   "est_weight_g": 520,
+   "est_volume_cc": 550,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "water bottle"
+  },
+  "tomato soup can_1": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  }
+ }
+}

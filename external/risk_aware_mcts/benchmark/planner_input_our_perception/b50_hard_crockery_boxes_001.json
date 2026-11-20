@@ -1,0 +1,95 @@
+{
+ "scene_id": "b50_hard_crockery_boxes_001",
+ "items_data": {
+  "plate_1": {
+   "est_weight_g": 279,
+   "est_volume_cc": 1255,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "plate"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "toothpaste box_1": {
+   "est_weight_g": 125,
+   "est_volume_cc": 300,
+   "crush_score": 5,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "toothpaste box"
+  },
+  "sugar box_2": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "cup_1": {
+   "est_weight_g": 118,
+   "est_volume_cc": 450,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "cup"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "kitchen sponge_1": {
+   "est_weight_g": 12,
+   "est_volume_cc": 160,
+   "crush_score": 5,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "kitchen sponge"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  }
+ }
+}

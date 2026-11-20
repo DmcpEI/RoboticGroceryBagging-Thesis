@@ -1,0 +1,45 @@
+{
+ "scene_id": "b50_easy_two_bags_000",
+ "items_data": {
+  "bag of limes_1": {
+   "est_weight_g": 285,
+   "est_volume_cc": 624,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of limes"
+  },
+  "bag of pears_1": {
+   "est_weight_g": 717,
+   "est_volume_cc": 1376,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of pears"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  }
+ }
+}

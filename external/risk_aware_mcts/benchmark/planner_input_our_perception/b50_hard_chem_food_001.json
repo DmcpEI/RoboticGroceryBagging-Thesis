@@ -1,0 +1,135 @@
+{
+ "scene_id": "b50_hard_chem_food_001",
+ "items_data": {
+  "glass cleaner spray bottle_1": {
+   "est_weight_g": 1022,
+   "est_volume_cc": 2268,
+   "crush_score": 2,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "glass cleaner spray bottle"
+  },
+  "mustard bottle_1": {
+   "est_weight_g": 603,
+   "est_volume_cc": 744,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "mustard bottle"
+  },
+  "egg carton_1": {
+   "est_weight_g": 385,
+   "est_volume_cc": 1300,
+   "crush_score": 9,
+   "category": "Dairy",
+   "temperature": "Refrigerated",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "egg carton"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "tomato soup can_1": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "bleach bottle_1": {
+   "est_weight_g": 1131,
+   "est_volume_cc": 1592,
+   "crush_score": 2,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "bleach bottle"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "bag of bananas_1": {
+   "est_weight_g": 477,
+   "est_volume_cc": 772,
+   "crush_score": 10,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of bananas"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "sugar box_2": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "tuna can_2": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "tomato soup can_2": {
+   "est_weight_g": 349,
+   "est_volume_cc": 346,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tomato soup can"
+  }
+ }
+}

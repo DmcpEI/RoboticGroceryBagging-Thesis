@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # The static benchmark of Chapter 4 (150 scenes): detector, and with --vlm the
 # fine-tuned vision-language model and the hybrid, each scored for whole record
-# (Table 4.1), identity (Table 4.2) and characteristic recovery (Table 4.4).
+# (Table 4.2), identity (Table 4.3) and characteristic recovery (Tables 4.4 and 4.6).
 #
 #   bash tools/eval/run_benchmark.sh          # detector only
 #   bash tools/eval/run_benchmark.sh --vlm    # + VLM and hybrid (needs the adapter)

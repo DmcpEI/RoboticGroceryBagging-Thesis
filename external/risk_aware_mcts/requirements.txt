@@ -1,0 +1,6 @@
+numpy==1.24.4
+tqdm==4.67.1
+google-generativeai==0.8.6
+pillow
+python-dotenv==1.2.1
+ortools

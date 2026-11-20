@@ -1,0 +1,145 @@
+{
+ "scene_id": "b50_hard_crockery_mix_005",
+ "items_data": {
+  "bowl_1": {
+   "est_weight_g": 147,
+   "est_volume_cc": 1052,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "bowl"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "bag of pears_1": {
+   "est_weight_g": 717,
+   "est_volume_cc": 1376,
+   "crush_score": 8,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of pears"
+  },
+  "plate_1": {
+   "est_weight_g": 279,
+   "est_volume_cc": 1255,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "plate"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "cup_1": {
+   "est_weight_g": 118,
+   "est_volume_cc": 450,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "cup"
+  },
+  "wine cup_1": {
+   "est_weight_g": 133,
+   "est_volume_cc": 852,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "wine cup"
+  },
+  "sugar box_2": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "egg carton_1": {
+   "est_weight_g": 385,
+   "est_volume_cc": 1300,
+   "crush_score": 9,
+   "category": "Dairy",
+   "temperature": "Refrigerated",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "egg carton"
+  },
+  "tuna can_1": {
+   "est_weight_g": 171,
+   "est_volume_cc": 187,
+   "crush_score": 2,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "tuna can"
+  },
+  "cracker box_2": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "bag of strawberries_1": {
+   "est_weight_g": 53,
+   "est_volume_cc": 332,
+   "crush_score": 10,
+   "category": "Produce",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "bag of strawberries"
+  },
+  "cracker box_3": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "bleach bottle_1": {
+   "est_weight_g": 1131,
+   "est_volume_cc": 1592,
+   "crush_score": 2,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": true,
+   "spill_vulnerable": false,
+   "display_name": "bleach bottle"
+  }
+ }
+}

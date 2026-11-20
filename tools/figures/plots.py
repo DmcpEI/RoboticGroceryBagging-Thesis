@@ -3,7 +3,7 @@
 
   .venv/bin/python tools/figures/plots.py [out_dir]
 
-fig5: bags vs rule violations over the soft-CP penalty sweep (runs/eval/soft_cp_b50_v3.json,
+fig5: bags vs rule violations over the soft-CP penalty sweep (runs/eval/soft_cp_b50_v4.json, catalog weights and volumes,
 lambda >= 10; the last point is the hard-constrained solve).
 fig6: macro-F1 per characteristic against identity, robot and retail catalogs (Chapter 4 table).
 """
@@ -34,12 +34,13 @@ def cost_of_safety():
     ax.grid(axis="y", color="#E3E6EA", lw=0.6)
     ax.set_xlabel("bags (150 scenes)")
     ax.set_ylabel("rule violations (pairs of items)")
-    ax.set_ylim(-75, 400)
-    ax.set_xlim(265, 400)
-    notes = {(274, 364): ("fewest bags that fit", (8, -2), "left"),
-             (285, 270): ("+11 bags, 94 fewer violations", (8, 4), "left"),
-             (378, 12): ("12 violations left", (0, 12), "center"),
-             (390, 0): ("every rule satisfied: +42% bags", (4, -14), "right")}
+    ax.set_ylim(-0.2 * y[0], 1.1 * y[0])
+    ax.set_xlim(x[0] - 10, x[-1] + 10)
+    # labels follow the data: the two ends, the first step and the last violations
+    notes = {(x[0], y[0]): ("fewest bags that fit", (8, -2), "left"),
+             (x[1], y[1]): (f"+{x[1] - x[0]} bags, {y[0] - y[1]} fewer violations", (8, 4), "left"),
+             (x[-2], y[-2]): (f"{y[-2]} violations left", (0, 12), "center"),
+             (x[-1], y[-1]): (f"every rule satisfied: +{round(100 * (x[-1] / x[0] - 1))}% bags", (4, -14), "right")}
     for (bx, by), (s, off, ha) in notes.items():
         ax.annotate(s, (bx, by), xytext=off, textcoords="offset points", ha=ha, va="center",
                     fontsize=8, color=GREY)

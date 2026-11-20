@@ -1,0 +1,115 @@
+{
+ "scene_id": "b50_hard_crockery_boxes_002",
+ "items_data": {
+  "bowl_1": {
+   "est_weight_g": 147,
+   "est_volume_cc": 1052,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "bowl"
+  },
+  "chocolate pudding box_1": {
+   "est_weight_g": 187,
+   "est_volume_cc": 342,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "chocolate pudding box"
+  },
+  "cracker box_1": {
+   "est_weight_g": 411,
+   "est_volume_cc": 1991,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "cracker box"
+  },
+  "cup_1": {
+   "est_weight_g": 118,
+   "est_volume_cc": 450,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "cup"
+  },
+  "gelatin dessert box_1": {
+   "est_weight_g": 97,
+   "est_volume_cc": 174,
+   "crush_score": 6,
+   "category": "Snacks",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": true,
+   "display_name": "gelatin dessert box"
+  },
+  "kitchen sponge_1": {
+   "est_weight_g": 12,
+   "est_volume_cc": 160,
+   "crush_score": 5,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "kitchen sponge"
+  },
+  "plate_1": {
+   "est_weight_g": 279,
+   "est_volume_cc": 1255,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "plate"
+  },
+  "sugar box_1": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "sugar box_2": {
+   "est_weight_g": 514,
+   "est_volume_cc": 592,
+   "crush_score": 5,
+   "category": "Pantry",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "sugar box"
+  },
+  "toothpaste box_1": {
+   "est_weight_g": 125,
+   "est_volume_cc": 300,
+   "crush_score": 5,
+   "category": "Cleaning",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "toothpaste box"
+  },
+  "wine cup_1": {
+   "est_weight_g": 133,
+   "est_volume_cc": 852,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "wine cup"
+  }
+ }
+}

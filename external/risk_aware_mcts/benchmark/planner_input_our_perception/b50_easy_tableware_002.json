@@ -1,0 +1,35 @@
+{
+ "scene_id": "b50_easy_tableware_002",
+ "items_data": {
+  "plate_1": {
+   "est_weight_g": 279,
+   "est_volume_cc": 1255,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "plate"
+  },
+  "bowl_1": {
+   "est_weight_g": 147,
+   "est_volume_cc": 1052,
+   "crush_score": 2,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "bowl"
+  },
+  "wine cup_1": {
+   "est_weight_g": 133,
+   "est_volume_cc": 852,
+   "crush_score": 8,
+   "category": "Household",
+   "temperature": "Ambient",
+   "spill_risk": false,
+   "spill_vulnerable": false,
+   "display_name": "wine cup"
+  }
+ }
+}

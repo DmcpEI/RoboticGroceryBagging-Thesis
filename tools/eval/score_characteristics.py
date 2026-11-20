@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Per-characteristic recovery, reported as macro-F1.
 
-One number per characteristic, so Table V can put the Robot and the Retail set
+One number per characteristic, so Table 4.6 can put the Robot and the Retail set
 side by side under the same metric. Accuracy is not reported anywhere: most of
 these characteristics are heavily imbalanced booleans, and accuracy on those
 hides a total loss of the positive class behind a moving third decimal.
