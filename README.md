@@ -58,6 +58,7 @@ Table and figure numbers are those of the final version of the dissertation.
 | Objects found and named (Table 4.5) | `tools/eval/removal_diff_boxes.py`, `tools/eval/localisation_recall.py` |
 | Characteristic confusions on the located objects (Fig. 4.3) | `tools/eval/region_characteristic_confusion.py`, `tools/figures/region_confusions.py` |
 | Cost of a wrong name (Sec. 4.4.1) | `tools/eval/confusion_cost.py` |
+| Derivation rules on the retail catalog (Sec. 4.4.2) | `tools/eval/rpc_rules_transfer.py` |
 | Retail catalog (Table 4.6 Retail, Sec. 4.5) | `tools/eval/build_rpc_cutouts.py`, `build_rpc_synthetic_scenes.py`, `rpc_detector_inventory.py`, `eval_rpc_detector.py`, `score_characteristics.py`; robot side: `robot_identity_comparison.py` |
 | Removal sequences (Sec. 4.6) | `tools/eval/removal_union_recall.py` |
 | Cost of safety (Fig. 4.4) | `tools/planner/run_soft_cp_sweep.py --catalog-weights data/robot_lab/robot_item_catalog_perception.json`, `tools/figures/plots.py` |
