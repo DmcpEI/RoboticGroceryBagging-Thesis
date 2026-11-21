@@ -241,8 +241,12 @@ def pack_models(out: Path, lora: Path | None) -> None:
     if lora:
         dst = out / "models/qwen3vl32b_lora_record"
         dst.mkdir(exist_ok=True)
-        for name in ("adapter_config.json", "adapter_model.safetensors"):
-            shutil.copyfile(lora / name, dst / name)
+        shutil.copyfile(lora / "adapter_model.safetensors", dst / "adapter_model.safetensors")
+        # the training config names the base model by a path on the training
+        # machine; point it at the public checkpoint instead
+        cfg = json.loads((lora / "adapter_config.json").read_text())
+        cfg["base_model_name_or_path"] = "Qwen/Qwen3-VL-32B-Instruct"
+        write_json(dst / "adapter_config.json", cfg)
 
 
 def main() -> int:
